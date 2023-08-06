@@ -1,6 +1,6 @@
 ---
 import Container from "./Container.astro"
-
+import { Icon } from 'astro-icon'
 ---
 
 <div id="features">
@@ -11,128 +11,79 @@ import Container from "./Container.astro"
       </svg>
       
       <h2 class="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
-        A technology-first approach to payments
-        and finance
+        Een reserveringsysteem waar jij én je bezoekers blij van worden.
       </h2>
-      <p class="text-gray-600 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.</p>
+      <p class="text-gray-600 dark:text-gray-300">Je bezoekers zullen snel en gemakkelijk een beschikbare tijd vinden, en een reservering plaatsen.</p>
     </div>
     <div
       class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4"
     >
       <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
         <div class="relative space-y-8 py-12 p-8">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
-            class="w-12"
-            width="512"
-            height="512"
-            alt="burger illustration"
-          />
+          <Icon class="w-10 h-10 text-rose-600 dark:text-rose-400" pack="ph" name="calendar-check-duotone" />
 
           <div class="space-y-2">
             <h5
-              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
+              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-primary"
             >
-              First feature
+              Reserveringsysteem
             </h5>
             <p class="text-gray-600 dark:text-gray-300">
-              Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+              Een reserveringsysteem waar je bezoekers blij van worden.
             </p>
           </div>
-          <a href="#" class="flex items-center justify-between group-hover:text-secondary">
-            <span class="text-sm">Read more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd" />
-            </svg>                
-          </a>
         </div>
       </div>
       <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
         <div class="relative space-y-8 py-12 p-8">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
-            class="w-12"
-            width="512"
-            height="512"
-            alt="burger illustration"
-          />
+          <Icon class="w-10 h-10 text-rose-600 dark:text-rose-400" pack="ph" name="armchair-duotone" />
 
           <div class="space-y-2">
             <h5
-              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
+              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-primary"
             >
-              Second feature
+              Ruimtebeheer
             </h5>
             <p class="text-gray-600 dark:text-gray-300">
-              Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+              Beheer gemakkelijk jouw plekken, openingstijden en reserveringen.
             </p>
           </div>
-          <a href="#" class="flex items-center justify-between group-hover:text-secondary">
-            <span class="text-sm">Read more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd" />
-            </svg>                
-          </a>
         </div>
       </div>
       <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
         <div class="relative space-y-8 py-12 p-8">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png"
-            class="w-12"
-            width="512"
-            height="512"
-            alt="burger illustration"
-          />
+          <Icon class="w-10 h-10 text-rose-600 dark:text-rose-400" pack="ph" name="coffee-duotone" />
 
           <div class="space-y-2">
             <h5
-              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
+              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-primary"
             >
-              Third feature
+              Extra's
             </h5>
             <p class="text-gray-600 dark:text-gray-300">
-              Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+              Voeg extra's toe aan je plekken
             </p>
           </div>
-          <a href="#" class="flex items-center justify-between group-hover:text-secondary">
-            <span class="text-sm">Read more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd" />
-            </svg>                
-          </a>
         </div>
       </div>
       <div
         class="group relative bg-gray-50 dark:bg-gray-900 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10"
       >
         <div
-          class="relative space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800"
+          class="relative space-y-8 py-12 p-8 transition duration-300"
         >
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
-            class="w-12"
-            width="512"
-            height="512"
-            alt="burger illustration"
-          />
+          <Icon class="w-10 h-10 text-rose-600 dark:text-rose-400" pack="ph" name="sparkle-duotone" />
 
           <div class="space-y-2">
             <h5
-              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
+              class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-primary"
             >
-              More features
+              En meer 
             </h5>
             <p class="text-gray-600 dark:text-gray-300">
-              Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+              QR-codes, goedkeuringen en meer! <span class="inline-flex rounded-full bg-primary/20 px-1.5 py-0.5 text-xs tracking-wider text-purple-700 dark:bg-white/10 dark:text-orange-300"> Binnenkort</span>
             </p>
           </div>
-          <a href="#" class="flex items-center justify-between group-hover:text-secondary">
-            <span class="text-sm">Read more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd" />
-            </svg>                
-          </a>
         </div>
       </div>
     </div>

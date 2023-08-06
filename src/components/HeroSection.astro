@@ -11,62 +11,56 @@ import Container from "./Container.astro"
     <Container>
         <div class="relative pt-36 ml-auto">
             <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Shaping a world with <span class="text-primary dark:text-white">reimagination.</span></h1>
-                <p class="mt-8 text-gray-700 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!</p>
+                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Controle over je <span class="text-rose-600 block decoration-double underline dark:text-rose-400">flex plekken.</span></h1>
+
+                <a class="mb-5 flex mx-auto w-max gap-x-2 rounded-full bg-rose-900/5 p-1 pr-2 text-sm mt-10 dark:text-gray-300 text-gray-700" href="#">
+                  <span class="rounded-full bg-rose-500 px-2 py-0.5 text-xs uppercase text-white">Binnenkort</span> Beschikbaar
+                </a>
+
+                <p class="mt-8 text-gray-700 dark:text-gray-300">
+                  Ontdek het ruimtereserveringssysteem voor flexwerkplekken. <br /> Concentreer je op het serveren van je gasten, niet op het plannen van reserveringen. 
+                </p>
+
                 <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                     <a
-                      href="#"
+                      href="mailto:aanvragen@prima-plek.nl"
+                      target="_blank"
                       class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                     >
                       <span class="relative text-base font-semibold text-white"
-                        >Get started</span
+                        >Vraag aan</span
                       >
                     </a>
                     <a
-                      href="#"
+                      href="#features"
                       class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
                     >
                       <span
                         class="relative text-base font-semibold text-primary dark:text-white"
-                        >Learn more</span
+                        >Lees meer</span
                       >
                     </a>
                 </div>
-                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+                <div class="py-8 mt-16 border-y border-gray-100 dark:border-gray-800 flex flex-col sm:flex-row justify-between gap-3">
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The lowest price</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Gemakkelijk</h6>
+                        <p class="mt-2 text-gray-500">Gemakkelijk voor jou en je bezoekers</p>
                     </div>
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The fastest on the market</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Inzichtelijk</h6>
+                        <p class="mt-2 text-gray-500">Inzicht in je reserveringen en bezettingen</p>
                     </div>
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The most loved</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Eigen domein</h6>
+                        <p class="mt-2 text-gray-500">Binnen één dag een eigen domein en omgeving</p>
                     </div>
                 </div>
             </div>
-            <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src="./images/clients/airbnb.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
-                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                  <img src="./images/clients/google.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/ge.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                  <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/netflix.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/google-cloud.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
+            <!-- <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+              <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
               </div>
+            </div> -->
         </div>
     </Container>
 </div>
