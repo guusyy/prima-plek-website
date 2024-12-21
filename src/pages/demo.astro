@@ -13,9 +13,26 @@ import Container from '../components/Container.astro';
 <Layout title="Welkom bij Prima Plek">
 	<main class="space-y-40 mb-20">
 		<div class="flex items-center justify-center text-white flex-col gap-5" style="min-height: 50dvh;">
-			<h1 class="font-heading text-3xl font-bold">Demo</h1>
-
-			<p>Demo omgeving is binnenkort beschikbaar...</p>
+			<div class="prose prose-headings:text-white !text-white">
+				<h1 class="font-heading text-3xl font-bold">Demo</h1>
+	
+				<p>Wilt u een vrijblijvende demo van de software aanvragen? Mail ons en we nemen zo spoedig mogelijk contact met u op.</p>
+	
+				<ul>
+					<li>✅ Bespaar tijd met geautomatiseerde reserveringen.</li>
+					<li>✅ Eenvoudig te gebruiken, zelfs zonder technische kennis.</li>
+					<li>✅ Volledig aanpasbaar aan jouw wensen.</li>
+				</ul>
+				
+				<a
+					href="mailto:demo@prima-plek.nl"
+					class="not-prose mt-10 relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+				>
+					<span class="relative text-base font-semibold text-white dark:text-dark"
+						>Vraag gratis je demo aan</span
+					>
+				</a>
+			</div>
 		</div>
 	</main>
 </Layout>
